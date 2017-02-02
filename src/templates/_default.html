@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{{page.Title}}}</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <fs-template fs-if="page.Perex.IsSome">{{{page.Perex.Value}}}</fs-template>
+    {{{page.Text}}}
+</body>
+</html>

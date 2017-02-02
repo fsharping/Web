@@ -1,0 +1,19 @@
+FRAMEWORK: NET40
+NUGET
+  remote: http://www.nuget.org/api/v2
+    FAKE (4.50)
+    FSharp.Compiler.Service (2.0.0.6)
+    FSharp.Core (4.0.0.1)
+    FSharp.Formatting (2.14.4)
+      FSharp.Compiler.Service (2.0.0.6)
+      FSharpVSPowerTools.Core (>= 2.3 < 2.4)
+    FSharpVSPowerTools.Core (2.3)
+      FSharp.Compiler.Service (>= 2.0.0.3)
+    Fue (1.1)
+      HtmlAgilityPack (>= 1.4.9.5)
+    HtmlAgilityPack (1.4.9.5)
+    Razhel (0.7)
+      FSharp.Formatting (>= 2.14.4)
+      Fue (>= 1.1)
+    Suave (2.0.2)
+      FSharp.Core (>= 4.0.0.1)
