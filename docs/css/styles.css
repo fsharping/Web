@@ -1,3 +1,118 @@
+.menu-navbar {
+  min-height: 80px;
+}
+html {
+  height: 100%;
+}
 body {
-    color: blue;
+  font-family: "Open Sans", serif;
+  font-size: 18px;
+  padding-top: 90px;
+  color: #515151;
+  height: 100%;
+}
+a {
+  color: #30b9db;
+  text-decoration: none;
+}
+.nav > li > a {
+  padding: 15px 20px;
+}
+.navbar {
+  min-height: 80px;
+}
+.navbar-header {
+  min-height: 80px;
+}
+.navbar-default {
+  background-color: #30b9db;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #d6dae4;
+  line-height: 50px;
+  font-size: 20px;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:active,
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+  color: #ffffff;
+  background-color: #30b9db;
+}
+.navbar-brand > img {
+  border-radius: 5px;
+  border: 2px solid #ffffff;
+}
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by its height */
+  margin: 0 auto -45px;
+  /* Pad bottom by footer height */
+  padding: 0 0 45px;
+}
+/* Set the fixed height of the footer here */
+#footer {
+  min-height: 45px;
+  background-color: #30b9db;
+  font-size: 14px;
+  color: #ffffff;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+#footer .container .row {
+  margin-top: 5px;
+}
+#footer .author {
+  opacity: 0.7;
+  margin-right: 10px;
+}
+#footer .author a,
+#footer .author a:hover {
+  text-decoration: none;
+}
+#footer .author:hover {
+  opacity: 1;
+}
+#footer .links a {
+  margin-left: 5px;
+}
+#footer .links .popover-content {
+  min-width: 150px;
+}
+#footer .links .popover-content a,
+#footer .links .popover-content i {
+  color: #30b9db;
+}
+#footer a {
+  color: #d6dae4;
+}
+#footer a:hover {
+  color: #ffffff;
+}
+h2 {
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  letter-spacing: -0.025rem;
+  font-size: 35px;
+  margin-bottom: 9px;
+}
+h2 a {
+  color: #303030;
+}
+.title {
+  margin-bottom: 20px;
+}
+.container {
+  max-width: 850px;
+}
+.list ul {
+  list-style: none;
+  padding-left: 0;
+}
+.partners img {
+  width: 100px;
 }

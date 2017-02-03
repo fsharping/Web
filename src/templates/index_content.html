@@ -1,0 +1,49 @@
+ <div class="row">
+    <div class="col-md-12 title">
+        <h1>Vítejte na FSharpingu</h1>
+    </div>
+    <div class="col-md-9">
+        {{{page.Text}}}
+        <hr />
+        <div class="row">
+            <div class="col-md-6 list">
+                <h3>Blog</h3>
+                <ul>
+                    <li fs-for="p in allPages |> list.filter.byCategory 'blog' |> list.rev">
+                        <a href="{{{p |> getUrl}}}">{{{p.Title}}}</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-6 list meetups">
+                <h3>Srazy</h3>
+                <ul>
+                    <li fs-for="p in allPages |> list.filter.byCategory 'meetup'">
+                        <a href="{{{p |> getUrl}}}">{{{p.Title}}}</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <!--Twitter-->
+        <a class="twitter-timeline" href="https://twitter.com/FSharping" data-widget-id="687666719897210880">Tweets by FSharping</a>
+        <script>
+            !function (d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+                if (!d.getElementById(id)) {
+                    js = d.createElement(s);
+                    js.id = id;
+                    js.src = p + "://platform.twitter.com/widgets.js";
+                    fjs.parentNode.insertBefore(js, fjs);
+                }
+            }(document, "script", "twitter-wjs");
+        </script>
+
+        <div class="partners">
+            <h3>Partneři</h3>
+            <a href="http://www.cngroup.dk"><img src="img/cngroup-logo.svg" /></a>
+        </div>
+    </div>
+    
+</div>
+
